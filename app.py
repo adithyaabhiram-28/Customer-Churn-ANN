@@ -3,7 +3,6 @@ import pandas as pd
 import numpy as np
 import joblib
 from tensorflow.keras.models import load_model
-from streamlit_echarts import st_echarts
 
 st.set_page_config(
     page_title="Customer Churn Prediction",
